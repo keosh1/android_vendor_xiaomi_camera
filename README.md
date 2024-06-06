@@ -6,6 +6,7 @@ Prebuilt MIUI Camera to include in custom ROM builds.
 * Xiaomi 13 (fuxi)
 * Xiaomi 13 Pro (nuwa)
 * Xiaomi 13 Ultra (ishtar)
+* Poco F6 Pro / Redmi K70 (vermeer)
 
 ### How to use?
 
