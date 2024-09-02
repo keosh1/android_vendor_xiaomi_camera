@@ -17,3 +17,67 @@ android_app_import {
 	privileged: true,
 }
 
+cc_prebuilt_library_shared {
+	name: "libcamera_algoup_jni.xiaomi",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	compile_multilib: "64",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so"]
+		},
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcamera_mianode_jni.xiaomi",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	compile_multilib: "64",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so"]
+		},
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgui-xiaomi",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	compile_multilib: "64",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libgui-xiaomi.so"]
+		},
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmicampostproc_client",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	compile_multilib: "64",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libmicampostproc_client.so"]
+		},
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
