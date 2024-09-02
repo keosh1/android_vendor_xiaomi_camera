@@ -23,7 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camera/configs/properties/system_camera_fuxi.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/build_camera_fuxi.prop \
     vendor/xiaomi/camera/configs/properties/system_camera_ishtar.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/build_camera_ishtar.prop \
     vendor/xiaomi/camera/configs/properties/system_camera_nuwa.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/build_camera_nuwa.prop \
-    vendor/xiaomi/camera/configs/properties/system_camera_vermeer.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/build_camera_vermeer.prop
+    vendor/xiaomi/camera/configs/properties/system_camera_vermeer.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/build_camera_vermeer.prop \
+    vendor/xiaomi/camera/configs/properties/system_camera_mondrian.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/build_camera_mondrian.prop
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
